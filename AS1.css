@@ -1,0 +1,74 @@
+body {
+    background-image: url('https://4kwallpapers.com/images/wallpapers/vivo-stock-android-10-waving-gradient-peach-2560x1080-493.jpg');
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: rgb(54, 72, 46);
+    font-size: 50px;
+    background-color: aliceblue;
+}
+.container  {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.input1{
+    flex: 1;
+}
+.form{
+   
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:5px;
+}
+.image1{
+    flex:2;
+}
+.feature{
+    flex:1;
+}
+#info{
+    background-color: azure;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(34, 76, 130);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+#info1{
+    color: rgb(77, 77, 125);
+    background-color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+#name{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 15px;
+    padding:3px;
+}
+#E-mail{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 15px;
+    padding:3px;
+}
+#click1{
+    background-color: rgb(103, 117, 128);
+    color: rgb(247, 248, 248);
+    font-size: 15px;
+}
+#click2{
+    background-color: rgb(103, 117, 128);
+    color: rgb(247, 248, 248);
+    font-size: 15px;
+}
